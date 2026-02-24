@@ -1,0 +1,18 @@
+# Node
+node_modules/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Local env/runtime
+.env
+*.log
+
+# ngrok/local tunnel artifacts
+.ngrok2/

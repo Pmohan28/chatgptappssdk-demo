@@ -1,0 +1,25 @@
+{
+  "name": "chatgptapps-sdk",
+  "version": "1.0.0",
+  "description": "Finance-focused ChatGPT App MCP server with OAuth and seeded data",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "mcp",
+    "chatgpt-apps-sdk",
+    "finance"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^1.1.1",
+    "@modelcontextprotocol/sdk": "^1.27.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}

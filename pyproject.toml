@@ -1,0 +1,9 @@
+[project]
+name = "finance-mcp-python"
+version = "1.0.0"
+description = "Finance-focused ChatGPT App MCP server with OAuth and seeded data"
+requires-python = ">=3.12"
+dependencies = [
+  "mcp>=1.26.0",
+  "uvicorn>=0.41.0"
+]
